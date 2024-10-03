@@ -14,6 +14,8 @@ All the steps have been tried on GitHub Codespaces, so they should work.
 
 - **Temporary Email**: The best site to create a temporary email is [Eztempmail](https://www.eztempmail.com/).
 
+- **Download required Minecraft version, and after dragging it in the mc_folder folder rename it server.jar**: FOR PAPER https://papermc.io/downloads
+
 ### Step-by-Step Minecraft Server Installation
 
 #### Commands for Setup
