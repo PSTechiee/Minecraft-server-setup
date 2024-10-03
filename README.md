@@ -105,7 +105,7 @@ All the steps have been tried on GitHub Codespaces, so they should work.
 localtonet.com - tunnel - TCP/UDP and from there start the server you created (under the action button, click the ⏸ button).
 
 2. After starting the server, drag the following two plugins into the `plugins` folder and restart the server:
-   - [Geyser-Spigot.jar](https://geysermc.org/download) (for Paper)
+   - [Geyser-Spigot.jar](https://geysermc.org/download)
    - [Floodgate-Spigot.jar](https://geysermc.org/download?project=floodgate)
 
    After restarting, all the required files will be installed. You will get new folders, including `Geyser-Spigot` (in my case, I selected Spigot for Paper, so the folder will be named accordingly depending on your version).
@@ -113,3 +113,6 @@ localtonet.com - tunnel - TCP/UDP and from there start the server you created (u
    You will need to make changes in the configuration files within the `Geyser-Spigot` folder. Open the `Geyser-Spigot` folder, go to the `config.yml` file, and replace the port accordingly. Try using the IP/URL and port or client port.
 
 3. In mc_server folder, go to `server.properties` and find `online-mode` make it online-mode=false (Additionally you can also customise gamemode and pvp)
+
+4. Feel free to ask questions to [Mistral AI](https://chat.mistral.ai/chat) if you face any issue (It is compulsory to jailbreak that AI, so use this repo: 
+[JAILBREAK AI:](https://gist.github.com/coolaj86/6f4f7b30129b0251f61fa7baaa881516))
