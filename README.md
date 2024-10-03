@@ -109,3 +109,5 @@ localtonet.com - tunnel - TCP/UDP and from there start the server you created (u
    After restarting, all the required files will be installed. You will get new folders, including `Geyser-Spigot` (in my case, I selected Spigot for Paper, so the folder will be named accordingly depending on your version).
 
    You will need to make changes in the configuration files within the `Geyser-Spigot` folder. Open the `Geyser-Spigot` folder, go to the `config.yml` file, and replace the port accordingly. Try using the IP/URL and port or client port.
+
+3. In mc_server folder, go to `server.properties` and find `online-mode` make it online-mode=false (Additionally you can also customise gamemode and pvp)
